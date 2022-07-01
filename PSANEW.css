@@ -1,0 +1,119 @@
+/*estilo do ficheiro como um todo */
+*{ 
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+/*zona do body */
+body{
+    background-image: url("fundo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*zona do container */
+#container {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px 35px 20px 35px;
+    background-color: rgb(255,255,255,0.9);
+    color: black;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    align-items: left;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 10px;
+  }
+  /* localização do formulario*/
+form {
+    margin-top: 25px;
+    align-items: center;
+
+
+}
+/*localização da imagem de logotipo */
+.logo{
+    align-items:center;
+}
+/*estilo da tabela */
+table {
+
+    width: 200px;
+    margin-left: 500px;
+    margin-top: -295px;
+    text-align: center;
+   background-color: rgba(165, 205, 116, 0.7);
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+th{
+    height: 50px;
+}
+
+/* Regras de quando e no pC*/
+@media (min-width: 700px){
+    header {
+        justify-content: space-between;
+        padding:20px 60px 20px 60px;    
+    }
+    .container{
+        justify-content: center;
+        padding: 20px 40px 20px 40px;
+        flex-wrap: wrap;
+
+    }
+    section {
+        width: 30%;
+        margin: 20px;
+        
+    }
+} 
+/*Regras para quando e telemovel*/
+@media (max-width:700px) {
+    header {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 10px 30px 10px;
+        
+    }
+    header .title {
+        margin-top: 10px;
+    }
+    .container{
+        padding: 20px;
+        flex-direction: column;
+    }
+    section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+/*estilo do botão */
+#mover {
+    border: 10px solid  rgba(165, 205, 116, 0.975);
+  background-color:  rgba(165, 205, 116, 0.975);
+  color: rgb(7, 6, 6);
+  cursor: pointer;
+width:100px;
+height: 50px;
+  justify-self: end;
+
+}
+#mover:hover {
+    background-color:rgb(150, 190, 100);
+    border: 10px solid rgb(150, 190, 100);
+    color: white;
+  }
+/*localização das checkboxes */
+.boxes{
+ margin-left: 520px;
+ margin-top: -250px;
+}
+
