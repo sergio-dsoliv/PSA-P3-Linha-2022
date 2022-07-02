@@ -7,12 +7,17 @@
     
 }
 /*zona do body */
-body{
-    background-image: url("fundo3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/*zona do container */
+
+
+/* Regras de quando e no pC*/
+@media (min-width: 700px){
+    /*zona do container */
+    body{
+        background-image: url("fundo3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
 #container {
     display: flex;
     flex-direction: column;
@@ -29,7 +34,7 @@ body{
     margin-top: 10px;
   }
   /* localização do formulario*/
-form {
+body .forma {
     margin-top: 25px;
     align-items: center;
 
@@ -55,45 +60,101 @@ table, th, td {
 th{
     height: 50px;
 }
-
-/* Regras de quando e no pC*/
-@media (min-width: 700px){
-    header {
-        justify-content: space-between;
-        padding:20px 60px 20px 60px;    
-    }
-    .container{
-        justify-content: center;
-        padding: 20px 40px 20px 40px;
-        flex-wrap: wrap;
-
-    }
-    section {
-        width: 30%;
-        margin: 20px;
-        
-    }
+body  .cb {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+body  .cb2 {
+    margin-left: 200px;
+    margin-top: -145px;
+}
+.boxes{
+    margin-left: 520px;
+    margin-top: -250px;
+   }
+   .tab{
+    margin-top: 100px;
+   }
 } 
+
 /*Regras para quando e telemovel*/
-@media (max-width:700px) {
-    header {
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        padding: 30px 10px 30px 10px;
-        
+@media (max-width:1000px) {
+    body{
+        background-image: url("fundo3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px 20px 20px 10px;
     }
-    header .title {
-        margin-top: 10px;
-    }
-    .container{
-        padding: 20px;
-        flex-direction: column;
-    }
-    section {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+    /*zona do container */
+#container {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 50px 50px 70px 35px;
+    background-color: rgb(255,255,255,0.9);
+    color: black;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    width: 75%;
+    height: 85%;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 10px;
+  }
+  /* localização do formulario*/
+body .forma {
+    margin-top: 370px;
+    align-items: center;
+
+
+}
+/*localização da imagem de logotipo */
+.logo{
+    margin-left: -100px;
+}
+.linha{
+    margin-top: 50px;
+}
+/*estilo da tabela */
+table {
+
+    width: 250px;
+    margin-left: -200px;
+    margin-top: -130px;
+    text-align: center;
+   background-color: rgba(165, 205, 116, 0.7);
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+th{
+    height: 50px;
+}
+
+body  .cb {
+    margin-left: 30px;
+    margin-top: -165px;
+}
+
+
+
+body  .cb2 {
+    margin-left: 120px;
+    margin-top: -500px;
+   
+}
+.boxes {
+    
+  margin-left: 300px;
+  margin-top: -420px;
+       
+}
+.tab{
+    margin-top: 525px;
+   
+   }
+
 }
 /*estilo do botão */
 #mover {
@@ -112,8 +173,5 @@ height: 50px;
     color: white;
   }
 /*localização das checkboxes */
-.boxes{
- margin-left: 520px;
- margin-top: -250px;
-}
+
 
