@@ -11,13 +11,14 @@
 
 /* Regras de quando e no pC*/
 @media (min-width: 700px){
-    /*zona do container */
+     /*zona do corpo geral da pagina */
     body{
         background-image: url("fundo3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         
     }
+    /*zona do container */
 #container {
     display: flex;
     flex-direction: column;
@@ -60,18 +61,22 @@ table, th, td {
 th{
     height: 50px;
 }
+ /*conjunto das checkbox da distribuição, aguardar e operação */
 body  .cb {
     margin-left: 150px;
     margin-top: 20px;
 }
+/*conjunto das checkbox das barragem na linha*/
 body  .cb2 {
     margin-left: 200px;
     margin-top: -145px;
 }
+/*conjunto dos labels da distribuição, aguardar e operação */
 .boxes{
     margin-left: 520px;
     margin-top: -250px;
    }
+   /*labels com a ultima ordem de destino e palete*/
    .tab{
     margin-top: 100px;
    }
@@ -79,6 +84,7 @@ body  .cb2 {
 
 /*Regras para quando e telemovel*/
 @media (max-width:1000px) {
+    /*zona do corpo geral da pagina */
     body{
         background-image: url("fundo3.jpg");
         background-repeat: no-repeat;
@@ -124,32 +130,31 @@ table {
     text-align: center;
    background-color: rgba(165, 205, 116, 0.7);
 }
-
 table, th, td {
     border: 1px solid black;
 }
 th{
     height: 50px;
 }
-
+/*conjunto das checkbox da distribuição, aguardar e operação */
 body  .cb {
     margin-left: 30px;
     margin-top: -165px;
 }
-
-
-
+/*conjunto das checkbox das barragem na linha*/
 body  .cb2 {
     margin-left: 120px;
     margin-top: -500px;
    
 }
+/*conjunto dos labels da distribuição, aguardar e operação */
 .boxes {
     
   margin-left: 300px;
   margin-top: -420px;
        
 }
+/*labels com a ultima ordem de destino e palete*/
 .tab{
     margin-top: 525px;
    
@@ -172,6 +177,6 @@ height: 50px;
     border: 10px solid rgb(150, 190, 100);
     color: white;
   }
-/*localização das checkboxes */
+
 
 
