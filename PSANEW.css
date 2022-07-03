@@ -10,7 +10,7 @@
 
 
 /* Regras de quando e no pC*/
-@media (min-width: 700px){
+@media (min-width: 1000px){
      /*zona do corpo geral da pagina */
     body{
         background-image: url("fundo3.jpg");
@@ -36,21 +36,23 @@
   }
   /* localização do formulario*/
 body .forma {
-    margin-top: 25px;
+    margin-top: 150px;
     align-items: center;
 
 
 }
 /*localização da imagem de logotipo */
 .logo{
-    align-items:center;
+    margin-left: 150px;
+    width: 100px;
+    height: 200px;
 }
 /*estilo da tabela */
 table {
 
-    width: 200px;
-    margin-left: 500px;
-    margin-top: -295px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: -300px;
     text-align: center;
    background-color: rgba(165, 205, 116, 0.7);
 }
@@ -63,18 +65,18 @@ th{
 }
  /*conjunto das checkbox da distribuição, aguardar e operação */
 body  .cb {
-    margin-left: 150px;
-    margin-top: 20px;
+    margin-left: 250px;
+    margin-top: 30px;
 }
 /*conjunto das checkbox das barragem na linha*/
 body  .cb2 {
     margin-left: 200px;
-    margin-top: -145px;
+    margin-top: -190px;
 }
 /*conjunto dos labels da distribuição, aguardar e operação */
 .boxes{
-    margin-left: 520px;
-    margin-top: -250px;
+    margin-left: 620px;
+    margin-top: -350px;
    }
    /*labels com a ultima ordem de destino e palete*/
    .tab{

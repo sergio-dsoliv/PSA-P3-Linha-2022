@@ -26,12 +26,13 @@
         
             <!-- Forms para atualizaçao da página  -->
             <div class="forma" style= "text-align:center;"> Ordem <br>       
-            
+            <form action="PSANEW2.php" method= "POST">
             <label id= "palete"> Palete </label>  
-            <input type="text" name="Palete" id="PALETE" value=0  placeholder="Numero da palete" >
+            <input type="text" name="Palete" id="PALETE"   placeholder="Numero da palete" >
             <label id= "destino"> Destino </label>          
-            <input type="text" name="Destino"  id="DESTINO" value=0 placeholder="Barragem de destino" ><br>
+            <input type="text" name="Destino"  id="DESTINO"  placeholder="Barragem de destino" ><br>
             <input type="submit" name="mover" id="mover">
+            </form>
             </div>
             <div class="boxes">
             <label id= "distribuicao"> Distribuição </label><br><br> 
